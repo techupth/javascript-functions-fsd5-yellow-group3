@@ -6,8 +6,7 @@ let calculator = {
     divide: (a, b) => a / b,
 };
 
-let addResult = calculator.add;
-console.log(addResult(10, 20))
-let divideResult = calculator.divide
-console.log(divideResult(3000, 10))
-
+let addResult = calculator.add(10, 20)
+let divideResult = calculator.divide(3000, 10)
+console.log(addResult)
+console.log(divideResult)
