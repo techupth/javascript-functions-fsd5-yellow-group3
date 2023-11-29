@@ -11,6 +11,6 @@ describe("exercise-4 : test JS Function Hack Hour", () => {
     expect(calculator.multiply(10, 2)).toBe(20);
     expect(calculator.divide(10, 2)).toBe(5);
     expect(addResult).toBe(30);
-    expect(devideResult).toBe(300);
+    expect(divideResult).toBe(300);
   });
 });
